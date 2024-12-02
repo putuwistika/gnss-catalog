@@ -180,6 +180,7 @@ export default function RegionSearchPage() {
                     dropdownMode="select"
                     isClearable
                     required
+                    portalId="root-portal"
                   />
                   <Calendar className="absolute right-3 top-1/2 transform -translate-y-1/2 text-purple-400 w-5 h-5 pointer-events-none" />
                 </div>
@@ -203,6 +204,7 @@ export default function RegionSearchPage() {
                     dropdownMode="select"
                     isClearable
                     required
+                    portalId="root-portal"
                   />
                   <Calendar className="absolute right-3 top-1/2 transform -translate-y-1/2 text-purple-400 w-5 h-5 pointer-events-none" />
                 </div>

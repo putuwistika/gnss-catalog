@@ -87,6 +87,12 @@ export default function PointSearchPage() {
                   dateFormat="yyyy-MM-dd"
                   className="w-full bg-purple-900/30 border border-purple-500/30 rounded-lg px-4 py-3 text-white"
                   placeholderText="Select start date"
+                  showYearDropdown
+                  showMonthDropdown
+                  dropdownMode="select"
+                  isClearable
+                  required
+                  portalId="root-portal"
                 />
               </div>
               <div className="relative">
@@ -101,6 +107,12 @@ export default function PointSearchPage() {
                   dateFormat="yyyy-MM-dd"
                   className="w-full bg-purple-900/30 border border-purple-500/30 rounded-lg px-4 py-3 text-white"
                   placeholderText="Select end date"
+                  showYearDropdown
+                  showMonthDropdown
+                  dropdownMode="select"
+                  isClearable
+                  required
+                  portalId="root-portal"
                 />
               </div>
 
